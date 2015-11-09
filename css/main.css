@@ -1,0 +1,252 @@
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+header {
+  background-image: url("img/solutionbi.jpg");
+  border-top:10%;
+
+}
+
+header h1 {
+  font-family: "Ubuntu";
+  text-align:center;
+  font-size:80px;
+  color: #595E4C;
+  text-decoration: underline;
+}
+
+header nav {
+  border-radius:24px;
+  font-family: "Ubuntu";
+  text-align: center;
+  font-weight: 400;
+  font-size:3vw;
+  letter-spacing: 7px;
+  color: #9EAB8A;
+  background-color:#1E0137;
+}
+
+header nav li {
+    display: inline;
+}
+
+/* Titles */
+h1, h2, h4, h5, h6 {
+    font-family: "Ubuntu";
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+    padding-bottom:4px;
+    color: #333;
+}
+
+h3{
+  font-family: "Ubuntu";
+  text-align: center;
+  font-size: 1.85em;
+  font-weight: 300;
+  color:white;
+  padding-bottom:0;
+  color: #333;
+}
+
+.types{
+  background-color:#9EAB8A;
+  height:465px;
+  border-radius:10px;
+}
+
+.typesTitle{
+  color:#333;
+  font-size:2.6em;
+}
+
+.kolbsModel, .honeyMumford, .learningModalities {
+  background-color: #3A2C45;
+  border-radius:35px;
+  text-align:center;
+  color: white;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 4px;
+  padding-bottom:9px;
+  padding-top:9px;
+}
+
+.theSteps{
+  background-color: #1E0137;
+  text-align:left;
+  float:right;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-bottom:18px;
+  width:30%;
+  height:290px;
+  border-radius:15px;
+}
+
+aside{
+  text-align:center;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-bottom:18px;
+  width:30%;
+  height:200px;
+  float: left;
+  background-color: #1E0137;
+}
+
+aside h3{
+  color:#19FA8D;
+}
+
+article{
+  text-align:center;
+}
+
+article h2{
+  text-align: center;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-size:21px;
+    text-align: center;
+    border-radius:2px;
+}
+
+/* Links */
+a {
+    color: grey;
+    word-wrap: break-word;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: red;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background-color: #34495e;
+	padding-top: 60px;
+}
+
+#headerwrap h1 {
+	margin-top: 30px;
+	color: white;
+	font-size: 70px;
+
+}
+
+#headerwrap h3 {
+	color: white;
+	font-size: 30px;
+}
+
+#headerwrap h5 {
+	color: white;
+	font-weight: 700;
+	text-align: left;
+}
+
+#headerwrap p {
+	text-align: left;
+	color: white
+}
+
+/* intro Wrap */
+
+#intro {
+	padding-top: 50px;
+	border-top: #bdc3c7 solid 5px;
+}
+
+#features {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#features .ac a{
+	font-size: 20px;
+}
+
+/* Showcase Wrap */
+
+#showcase {
+	display: block;
+	background-color: #34495e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#showcase h1 {
+	color: white;
+}
+
+#footerwrap {
+	background-color: #2f2f2f;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+
+#footerwrap h3 {
+	font-size: 28px;
+	color: white;
+}
+
+#footerwrap p {
+	color: white;
+	font-size: 18px;
+}
+
+/* Copyright Wrap */
+
+#c {
+	background: #222222;
+	padding-top: 15px;
+	text-align: right;
+}
+
+#c p {
+	color: white
+}
